@@ -11,5 +11,5 @@ jobs:
         run: |
           echo Hello There
           pwd
-          ls -l /
+          ls -la
           docker --version
