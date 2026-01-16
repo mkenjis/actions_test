@@ -1,0 +1,14 @@
+name: flask test
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: show environment
+        run: |
+          echo Hello There
+          echo ls -l
+		  docker version
