@@ -10,5 +10,5 @@ jobs:
         name: show environment
         run: |
           echo Hello There
-          echo ls -l
-		  docker version
+          ls -l
+          docker --version
