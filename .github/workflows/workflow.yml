@@ -29,4 +29,5 @@ jobs:
       -
         name: Run container
         run: |
-          echo docker container run -d -p 5000:5000 mkenjis/flask-test1:latest   
+          docker container run -d -p 5000:5000 mkenjis/flask-test1:latest
+          
