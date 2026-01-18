@@ -19,6 +19,6 @@ jobs:
       -
         name: run pylint
         run: |
-          pip install -r requirements.txt
           ls -la
+          pip install flask
           pylint .
