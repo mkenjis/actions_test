@@ -19,5 +19,6 @@ jobs:
       -
         name: run pylint
         run: |
+          pip install requirements.txt
           ls -la
           pylint .
