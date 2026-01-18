@@ -13,3 +13,7 @@ jobs:
           pwd
           ls -la
           pip install pylint
+      -
+        name: run pylint
+        run: |
+          pylint .
