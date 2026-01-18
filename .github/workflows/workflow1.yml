@@ -1,0 +1,15 @@
+name: flask dev
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: show environment
+        run: |
+          echo Hello There
+          pwd
+          ls -la
+          pip install pylint
