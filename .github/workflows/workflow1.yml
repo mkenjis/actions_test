@@ -27,3 +27,4 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.MY_REPO_TOKEN }}
+          DEFAULT_BRANCH: dev
