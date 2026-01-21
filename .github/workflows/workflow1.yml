@@ -16,8 +16,11 @@ jobs:
         name: checkout
         uses: actions/checkout@v5
       -
+        name: install dependencies
+        run: |
+          pip install flask pylint
+      -
         name: run pylint
         run: |
           ls -la
-          pip install flask pylint
           pylint .
